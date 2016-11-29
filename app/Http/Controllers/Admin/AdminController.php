@@ -9,6 +9,6 @@ class AdminController extends Controller
 {
     // Хяналтын самбар
     public function Dashboard(){
-
+        return view('admin.index');
     }
 }
